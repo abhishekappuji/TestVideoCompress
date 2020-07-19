@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.MediaController
 import android.widget.TextView
+import android.widget.Toast
 import android.widget.VideoView
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_video.*
@@ -37,6 +38,8 @@ class VideoActivity : AppCompatActivity() {
         }
     }
     fun compressVideo(){
+
+        Toast.makeText(this,"Compressed Text Has been clicked",Toast.LENGTH_SHORT).show()
 
     }
 }
